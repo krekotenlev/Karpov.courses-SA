@@ -1,0 +1,178 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36" version="29.4.0" pages="2">
+  <diagram name="Use Case" id="f9ZonLtGVMDAsUhFF6d2">
+    <mxGraphModel dx="3666" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Сервис аутентификации и авторизации&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="1030" width="820" x="90" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;Восстановление пароля&lt;/b&gt;" vertex="1">
+          <mxGeometry height="270" width="720" x="140" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Аутентификация и авторизация&lt;/b&gt;" vertex="1">
+          <mxGeometry height="390" width="720" x="140" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Регистрация&lt;/b&gt;" vertex="1">
+          <mxGeometry height="190" width="720" x="140" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-95" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-103" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVKmvipd7tCpYbpp6Pgv-2" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVKmvipd7tCpYbpp6Pgv-7" connectable="0" parent="ZVKmvipd7tCpYbpp6Pgv-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Extend" vertex="1">
+          <mxGeometry relative="1" x="-0.0526" y="2" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVKmvipd7tCpYbpp6Pgv-3" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVKmvipd7tCpYbpp6Pgv-8" connectable="0" parent="ZVKmvipd7tCpYbpp6Pgv-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Extend" vertex="1">
+          <mxGeometry relative="1" x="0.3105" y="-5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVKmvipd7tCpYbpp6Pgv-4" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVKmvipd7tCpYbpp6Pgv-5" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Пользователь&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="-30" y="521.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;Ввод данных пользователя&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="180" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Получение токена" vertex="1">
+          <mxGeometry height="65" width="190" x="650" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-52" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" target="EMuWt6wx3JdzeV3uOI76-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Предоставление доступа к учетной записи Telegram" vertex="1">
+          <mxGeometry height="65" width="190" x="650" y="147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-98" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;Ввод номера телефона&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="180" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-99" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-34" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;Ответ на секретный вопрос&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="405" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-71" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-36" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;div&gt;БД users&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="1050" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-40" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;div&gt;Telegram API&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="1040" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-60" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.963;exitY=0.254;exitDx=0;exitDy=0;exitPerimeter=0;" target="EMuWt6wx3JdzeV3uOI76-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-63" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Авторизация:&lt;div&gt;Назначение роли&amp;nbsp;&lt;/div&gt;&lt;div&gt;пользователя&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="650" y="521.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-100" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="EMuWt6wx3JdzeV3uOI76-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-65" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;Ввод полученного кода&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="640" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-66" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;Создание нового пароля&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="640" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-67" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-68" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="EMuWt6wx3JdzeV3uOI76-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-74" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="EMuWt6wx3JdzeV3uOI76-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-79" connectable="0" parent="EMuWt6wx3JdzeV3uOI76-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="extend" vertex="1">
+          <mxGeometry relative="1" x="-0.1736" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-75" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="EMuWt6wx3JdzeV3uOI76-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-80" connectable="0" parent="EMuWt6wx3JdzeV3uOI76-75" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="extend" vertex="1">
+          <mxGeometry relative="1" x="-0.2252" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-89" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-90" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVKmvipd7tCpYbpp6Pgv-12" edge="1" parent="1" source="ZVKmvipd7tCpYbpp6Pgv-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVKmvipd7tCpYbpp6Pgv-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ввод полученной СМС" vertex="1">
+          <mxGeometry height="65" width="190" x="440" y="634" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Подтверждение использования токена" vertex="1">
+          <mxGeometry height="65" width="190" x="180" y="473" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Вход по учетной записи тг" vertex="1">
+          <mxGeometry height="65" width="190" x="180" y="394" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVKmvipd7tCpYbpp6Pgv-10" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZVKmvipd7tCpYbpp6Pgv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVKmvipd7tCpYbpp6Pgv-11" connectable="0" parent="ZVKmvipd7tCpYbpp6Pgv-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="include" vertex="1">
+          <mxGeometry relative="1" x="-0.04" y="-4" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Вход по паре номер телефона - код смс" vertex="1">
+          <mxGeometry height="65" width="190" x="180" y="634" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVKmvipd7tCpYbpp6Pgv-13" edge="1" parent="1" source="EMuWt6wx3JdzeV3uOI76-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="EMuWt6wx3JdzeV3uOI76-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EMuWt6wx3JdzeV3uOI76-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Вход по паре ID/номер&amp;nbsp;&lt;div&gt;телефона - пароль&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="190" x="180" y="553" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EZ4USq6QlTDFhgmm6mD0" name="Стейкхолдеры и источники">
+    <mxGraphModel dx="2066" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hmunRG5iVCaoVcsroLjG-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;spacingTop=0;spacingRight=44;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Список стейкхолдеров&lt;/b&gt;&lt;/font&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Внутренние:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;1. &lt;b&gt;Руководство компании&lt;/b&gt; - выделяет бюджет и кадры, согласовывает концепт. Заинтересовано в успешном внедрении сервиса с целью увеличения прибыли компании и уровня репутации&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;2. &lt;b&gt;Отдел разработки &lt;/b&gt;- создает сервис и занимается его поддержкой. Заинтересован в получении максимального количества ресурсов для разработки сервиса - ЗП/премии, ПО и техническое обеспечение, условия работы, доступ к заказчику&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;3. &lt;b&gt;HR-отдел &lt;/b&gt;- занимается формированием команды для разработки сервиса. Заинтересованы в предсказуемости используемого стека разработки, полном описании навыков и требований, необходимым членам команды разработки&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;4. &lt;b&gt;Отдел ИБ&lt;/b&gt; - внедряют решения, направленные на сохранность персональных данных и соответствие продукта ФЗ о защите данных. Заинтересованы в предоставлении полной технической документации продукта в части сбора и хранения данных, читаемом коде, а также доступа к ресурсам (ЗП, ПО и техническое, бюджеты)&lt;/div&gt;&lt;/blockquote&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Внешние:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;1. &lt;b&gt;Заказчик &lt;/b&gt;- Транслирует свои потребности исполнителю. Заинтересован в повышении качества своего продукта за счет внедрения сервиса с целью увеличения прибыли компании и уровня репутации&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;2. &lt;b&gt;Клиенты &lt;/b&gt;- пользуются сервисом. Заинтересованы в простом и удобном сервисе, который не будет отнимать много времени на прохождение идентификации и аутентификации&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;3. &lt;b&gt;Конкуренты компании-исполнителя &lt;/b&gt;- мониторят качество и технические решения разрабатываемого сервиса. Заинтересованы в продаже заказчику своих решений&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;4. &lt;b&gt;Конкуренты заказчика &lt;/b&gt;- производят мониторинг бизнес-метрик заказчика, фиксируют изменения в его продуктах. Заинтересованы в привлечении клиентов заказчика&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;5. &lt;b&gt;Партнеры заказчика (СМИ) &lt;/b&gt;- пассивная роль: Заказчик использует информационные сводки партнеров в своем продукте. Заинтересованы в увеличении охвата аудитории за счет продвижения на удобных ресурсах заказчика&lt;/div&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="760" width="720" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hmunRG5iVCaoVcsroLjG-2" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Источники информации&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;1. Техническая документация продукта заказчика&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;2. Документация API Telegram&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;3. Нормативно-правовая база в отношении сбора и хранения персональных данных&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;4. Аналогичные сервисы конкурентов&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;5. Анкетирование фокус-группы&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;6. Интервью с экспертами&lt;/div&gt;" vertex="1">
+          <mxGeometry height="390" width="550" x="880" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
